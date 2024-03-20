@@ -1,6 +1,15 @@
 # backEndFriend51.github.io
 
-		
+<picture>
+ <source media="(prefers-color-scheme: dark)" srcset="Logo-png">
+ <source media="(prefers-color-scheme: light)" srcset="Logo.png">
+ <img alt="YOUR-ALT-TEXT" src="YOUR-DEFAULT-IMAGE">
+</picture>
+
+## About me
+
+<!-- TO DO: add more details about me later -->
+
 Mein Name ist Rainer Stöhr, ich wurde am 17. Mai 1983 geboren und wohne in München.<br />
 Seit meinem 6. Lebensjahr bin ich koerperbehindert und auf einen Rollstuhl angewiesen.<br />
 Trotz meiner Koerperbehinderung konnte ich die Schule und das Studium der Informatik absolvieren,<br /> 
@@ -12,9 +21,20 @@ die Vertiefungsfächer Datenschutz und IT- Sicherheit, Datenbanksysteme sowie Ne
 Im Oktober 2015 habe ich, während meinem praktischem Studiensemesters, ein erstes Praktikum begonnen.<br />
 Bei der iSYS Software GmbH war es mir möglich Erfahrungen zu den einzelnen Phasen eines Softwareprojektes zu sammeln.<br />
 Nach meinem Studium habe ich unter anderem Online- Zertifikate in HTML & CSS sowie in PHP gemacht.<br />
-					
 
+<details>
+<summary>My top Languages</summary>
 	
+| Rank | Languages     |
+|-----:|---------------|
+|     1|    Java       |
+|     2|   HTML/CSS    |
+|     3|     C++       |
+
+</details>
+
+---
+
 
 
 <label for="w3review">Review of W3Schools:</label>
