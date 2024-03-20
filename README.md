@@ -35,9 +35,9 @@ Nach meinem Studium habe ich unter anderem Online- Zertifikate in HTML & CSS sow
 
 ---
 
+<label for="rs">Tell me something:</label>
+<input type="text" id="rs" name="name"/>
 
-
-<label for="w3review">Review of W3Schools:</label>
 
 <textarea id="w3review" name="w3review" rows="4" cols="50">
 </textarea>
