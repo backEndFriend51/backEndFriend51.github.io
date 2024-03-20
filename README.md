@@ -35,14 +35,3 @@ Nach meinem Studium habe ich unter anderem Online- Zertifikate in HTML & CSS sow
 
 ---
 
-<label for="rs">Tell me something:</label>
-
-<input type="text" id="rs" name="name"/>
-
-<textarea id="rai" name="rai" rows="4" cols="50">
-	
-	Hello
- 
-</textarea>
-
-Hello Im Rainer Stoehr or Ralf Schleife
