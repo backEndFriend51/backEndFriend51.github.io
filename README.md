@@ -6,7 +6,7 @@
  <img alt="YOUR-ALT-TEXT" src="YOUR-DEFAULT-IMAGE">
 </picture>
 
-## About me
+## ueber mich
 
 <!-- TO DO: add more details about me later -->
 
