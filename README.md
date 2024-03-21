@@ -5,7 +5,9 @@
 </p>
  
 <p align="">
- <img alt="R and S on green background" src="Turm_ggt.png">
+	<p>
+	 <img alt="R and S on green background" src="Turm_ggt.png">
+	</p>
 </p>
 
 ## ueber mich
