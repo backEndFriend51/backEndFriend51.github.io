@@ -1,10 +1,12 @@
 # backEndFriend51.github.io
 
-<picture>
- <source media="(prefers-color-scheme: dark)" srcset="Logo-png">
- <source media="(prefers-color-scheme: light)" srcset="Logo.png">
- <img alt="YOUR-ALT-TEXT" src="YOUR-DEFAULT-IMAGE">
-</picture>
+<p align="left">
+ <img alt="R and S on green background" src="Turm_ggt.png">
+</p>
+ 
+<p align="right">
+ <img alt="R and S on green background" src="Logo.png">
+</p>
 
 ## ueber mich
 
