@@ -1,11 +1,11 @@
 # backEndFriend51.github.io
 
-<p align="left">
- <img alt="R and S on green background" src="Turm_ggt.png">
+<p align="center">
+ <img alt="R and S on green background" src="Logo.png">
 </p>
  
-<p align="right">
- <img alt="R and S on green background" src="Logo.png">
+<p align="">
+ <img alt="R and S on green background" src="Turm_ggt.png">
 </p>
 
 ## ueber mich
