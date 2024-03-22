@@ -1,7 +1,118 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Joon's Portfolio</title>
+<style>
+  body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #1A1A1A;
+    background-color: #fff;
+  }
+  header {
+    background-color: #cf2e2e;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000;
+  }
+  .cover {
+    padding: 60px 10px;
+    text-align: center;
+    background-color: #1A1A1A;
+    color: #fff;
+    margin-top: 40px;
+  }
+  .cover img {
+    border-radius: 50%;
+  }
+  .skills {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+  }
+  .skill {
+    width: 30%;
+    text-align: center;
+  }
+  .contact-form {
+    background-color: #cf2e2e;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  .contact-form input, .contact-form textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+  }
+  .contact-form button {
+    background-color: #1A1A1A;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  footer {
+    background-color: #1A1A1A;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+</style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+<header>
+  <nav>
+    <a href="#" style="color: #fff; text-decoration: none; padding: 0 15px;">Home</a>
+    <a href="#" style="color: #fff; text-decoration: none; padding: 0 15px;">Skills</a>
+    <a href="#" style="color: #fff; text-decoration: none; padding: 0 15px;">Contact</a>
+  </nav>
+</header>
+
+<div class="cover">
+  <img src="http://placekitten.com/200/200" alt="Joon">
+  <p>My name is Joon, I'm an aspiring web-developer. Get in touch</p>
+</div>
+
+<div class="skills">
+  <div class="skill">
+    <h3>Javascript</h3>
+    <p>Details about Javascript skills</p>
+  </div>
+  <div class="skill">
+    <h3>Python</h3>
+    <p>Details about Python skills</p>
+  </div>
+  <div class="skill">
+    <h3>Java</h3>
+    <p>Details about Java skills</p>
+  </div>
+</div>
+
+<div class="contact-form">
+  <h2>Get in Touch</h2>
+  <form action="submit">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</div>
+
+<footer>
+  Rainer ❤️
+</footer>
+
 </body>
 </html>
