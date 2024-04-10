@@ -18,13 +18,49 @@ body, html {
   .cover {
     padding: 60px 10px;
     text-align: center;
-    background-color: #0f0;
+    background-color: #FEF9E7;
     color: #000;
     margin-top: 40px;
   }
   .cover img {
     border-radius: 50%;
     max-width: 100%;
+  }
+  .homeZone {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+
+    border: 15px solid red;
+    color: #00f;
+    background-color: #EDBB99;
+    text-align: center;
+    text-decoration: none;
+    padding: 30px 15px;
+  }
+  .skillsZone {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+
+    border: 15px solid green;
+    color: #00f;
+    background-color: #AED6F1;
+    text-align: center;
+    text-decoration: none;
+    padding: 30px 15px;
+  }
+  .contactZone {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+
+    border: 15px solid red;
+    color: #00f;
+    background-color: #ABEBC6;
+    text-align: center;
+    text-decoration: none;
+    padding: 30px 15px;
   }
   .skills {
     display: flex;
@@ -36,7 +72,7 @@ body, html {
     text-align: center;
   }
   .contact-form {
-    background-color: #0f0;
+    background-color: #D5DBDB;
     color: #000;
     padding: 20px;
     text-align: center;
