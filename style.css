@@ -6,14 +6,19 @@ body, html {
     background-color: #fff;
   }
   header {
-    background-color: #000;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
     position: fixed;
     top: 0;
     width: 100%;
     padding: 10px 0;
     text-align: center;
     z-index: 1000;
+  }
+  .navi {
+    color: #000; 
+    text-decoration: none; 
+    padding: 0 15px
   }
   .cover {
     padding: 60px 10px;
@@ -48,7 +53,7 @@ body, html {
     background-color: #AED6F1;
     text-align: center;
     text-decoration: none;
-    padding: 30px 15px;
+    padding: 100px 5px;
   }
   .contactZone {
     display: flex;
@@ -86,15 +91,15 @@ body, html {
   }
   .contact-form button {
     background-color: #1A1A1A;
-    color: #0f0;
+    color: #FEF9E7;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
   }
   footer {
-    background-color: #1A1A1A;
-    color: #0f0;
+    background-color: #FEF9E7;
+    color: #000;
     text-align: center;
     padding: 10px 0;
   }
