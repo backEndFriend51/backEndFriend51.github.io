@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="style.css" rel="stylesheet"></link>
 <title>Rainer's Portfolio</title>
-<script src="https://js.cx/libs/animate.js"></script>
+
 </head>
 <body>
   
@@ -17,10 +17,11 @@
   </nav>
 </header>
 <div class="cover" id="face">
-  <button id="clickhandler">Click me</button>
   <img src="IMG-20230410-WA0010x.jpg" alt="Rainer">
   <p>My name is Rainer, I'm an aspiring web-developer.
     <a href="mailto:dev-rainer@rainerstoehr.de">Get in touch: Mail</a>
+    OR
+    <a href="#contact" >Get in Touch: Form</a>
   </p>
 </div>
 
@@ -37,17 +38,7 @@
     <h3>Java</h3>
     <p>Details about Java skills</p>
   </div>
-</div>
-
-<div class="contact-form">
-  <h2>Get in Touch: <Form></Form></h2>
-  <form action="" method="" >
-    <input type="text" placeholder="Your Name" required>
-    <input type="email" placeholder="Your Email" required>
-    <textarea placeholder="Your Message" required></textarea>
-    <button type="submit">Send Message</button>
-  </form>
-</div>
+</div> 
 
 <footer>
   Rainer ❤️
@@ -61,6 +52,7 @@
       In 2018 I got my Bachelor in computer science, so I can offer some skills.
     </p>
   </div>
+  <script src="https://js.cx/libs/animate.js"></script>
   <div class="skillsZone" id="skills" >
     <p>
       <h1>Hello</h1>
@@ -119,6 +111,15 @@
       </form><br />
     </p>
   </div>
-  <div class="contactZone" id="contact" >LITTLE LESS CONVERSATION !</div>
+  <div class="contactZone" id="contact" >LITTLE LESS CONVERSATION !
+    <div class="contact-form">
+      <form action="" method="" >
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </div>
 </body>
 </html>
