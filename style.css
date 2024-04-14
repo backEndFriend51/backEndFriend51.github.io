@@ -97,6 +97,22 @@ body, html {
     border-radius: 5px;
     cursor: pointer;
   }
+
+  textarea {
+    display: block;
+    height: 150px;
+    width: 300px;
+    border: 1px solid #BBB;
+    color: #444;
+    font-size: 200%;
+  }
+  
+  img {
+    margin: 10px, 10px, 10px, 10px;
+    height: 150px;
+    width: 300px;
+  }
+
   footer {
     background-color: #FEF9E7;
     color: #000;
