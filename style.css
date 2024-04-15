@@ -24,10 +24,31 @@ body, html {
     border-radius: 5px;
     cursor: pointer;
   }
+  h1 {
+    margin: 0px;
+  }
+  h2 {
+    margin: 0px;
+  }
+  h3 {
+    margin: 0px;
+  }
+  h4 {
+    margin: 0px;
+  }
+  h5 {
+    margin: 0px;
+  }
+  h6 {
+    margin: 0px;
+  }
+  table, th, td {
+    border: 1px solid;
+  }
   .navi {
     color: #000; 
     text-decoration: none; 
-    padding: 0 15px
+    padding: 0 15px;
   }
   .cover {
     padding: 60px 10px;
@@ -53,8 +74,12 @@ body, html {
     padding: 30px 15px;
   }
   .haedlines {
-    height: 10px;
-    width: 100px;
+    width: 85px;
+  }
+  .up {
+    color: #00f;
+    text-decoration: none;
+    padding: 0 15px;
   }
   .skillsZone {
     display: flex;
@@ -66,7 +91,7 @@ body, html {
     background-color: #AED6F1;
     
     text-decoration: none;
-    padding: 100px 5px;
+    padding: 30px 5px;
   }
   .contactZone {
     display: flex;
