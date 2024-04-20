@@ -67,9 +67,8 @@ body, html {
     justify-content: space-around;
     padding: 20px 0;
 
-    border: 15px solid red;
     color: #000;
-    background-color: #EDBB99;
+    background-color: #FEF9E7;
     text-align: center;
     text-decoration: none;
     padding: 30px 15px;
@@ -87,9 +86,8 @@ body, html {
     justify-content: space-around;
     flex-wrap: wrap;
 
-    border: 15px solid green;
     color: #000;
-    background-color: #AED6F1;
+    background-color: #fff;
     
     text-decoration: none;
     padding: 30px 5px;
@@ -99,9 +97,8 @@ body, html {
     justify-content: space-around;
     padding: 20px 0;
 
-    border: 15px solid red;
     color: #000;
-    background-color: #ABEBC6;
+    background-color: #FEF9E7;
     text-align: center;
     text-decoration: none;
     padding: 30px 15px;
@@ -153,7 +150,7 @@ body, html {
   }
 
   footer {
-    background-color: #FEF9E7;
+    background-color: #fff;
     color: #000;
     text-align: center;
     padding: 10px 0;
