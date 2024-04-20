@@ -60,6 +60,7 @@ body, html {
   .cover img {
     border-radius: 50%;
     max-width: 100%;
+    height: auto;
   }
   .homeZone {
     display: flex;
@@ -84,7 +85,7 @@ body, html {
   .skillsZone {
     display: flex;
     justify-content: space-around;
-    
+    flex-wrap: wrap;
 
     border: 15px solid green;
     color: #000;
