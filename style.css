@@ -96,7 +96,7 @@ body, html {
     background-color: #fff;
     
     text-decoration: none;
-    padding: 30px 5px;
+    padding: 30px 15px;
   }
   .contactZone {
     display: flex;
@@ -142,7 +142,7 @@ body, html {
 
   textarea {
     display: block;
-    height: 100px;
+    height: 160px;
     width: 300px;
     border: 1px solid #BBB;
     color: #444;
