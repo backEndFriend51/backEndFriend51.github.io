@@ -11,9 +11,9 @@
   
 <header>
   <nav class="navi">
-    <a href="#home" class="navi">Home</a>
-    <a href="#skills" class="navi" onmouseout="animateText(textExample)" >Skills</a>
-    <a href="#contact" class="navi">Contact</a>
+    <a href="#homezone" class="navi">Home</a>
+    <a href="#skillszone" class="navi" onmouseout="animateText(textExample)" >Skills</a>
+    <a href="#contactzone" class="navi">Contact</a>
   </nav>
 </header>
 <div class="cover" id="face">
@@ -21,44 +21,104 @@
   <p>My name is Rainer, I'm an aspiring web-developer.
     <a href="mailto:dev-rainer@rainerstoehr.de">Get in touch: Mail</a>
     :-:
-<!--    <a href="#contact" >Get in Touch: Form</a>  -->
+
   </p>
 </div>
 
 <div class="skills">
   <div class="skill">
     <h3>Javascript</h3>
-    <p>Details about Javascript skills</p>
+    
   </div>
   <div class="skill">
     <h3>Python</h3>
-    <p>Details about Python skills</p>
+    
   </div>
   <div class="skill">
     <h3>Java</h3>
-    <p>Details about Java skills</p>
+    
   </div>
 </div> 
 
 
 <div>
-  <h3><strong>Home</strong></h3><br />
-  <div class="homeZone" id="home" >
-   
-    <p>
-      My name is Rainer Stoehr I was born in Munich in 1983.<br /> 
-      I am disabled and need a wheelchair, since I was 6.<br /> 
-      In 2018 I got my Bachelor in computer science,<br />
-      so I can offer some skills - as you can see on 
-      <a href="https://www.xing.com/profile/Rainer_Stoehr6/web_profiles" >Social Media</a>
-    </p>
+  
+  <div class="homeZone" id="homezone" >   
+    <div class="" >
+      <h3><strong>Home</strong></h3><br />
+      <table>
+        <tr>
+          <th>Abuot Me</th>
+          <th>2008 - 2018 Hochschule für angewandte Wissenschaften München</th>
+          <th>iSYS Software GmbH</th>
+        </tr> 
+        <tr>
+          <td>
+            My name is Rainer Stoehr I was born in Munich in 1983.<br /> 
+            I am disabled and need a wheelchair, since I was 6.<br /> 
+            In 2018 I got my Bachelor in computer science,<br />
+            so I can offer some skills - as you can see on 
+            <a href="https://www.xing.com/profile/Rainer_Stoehr6/web_profiles" >Social Media</a>
+          </td>
+          <td>
+            <ul>
+            <li><strong>Studium der Informatik</strong></li><br />
+                <li><strong>Abschluss:</strong> Bachelor of Science Informatik</li>
+                    <li><strong>Abschlussnote:</strong> 2,2</li><br />
+                        <li>
+                        <strong>Bachelorarbeit:</strong> Untersuchung und Bewertung von zeitgemäßen Reponseness-Frameworks<br />
+                          Darstellung der Funktionsweise und Gründe des Einsatzes einer responsive Webanwendung<br />
+                          Untersuchung zur Eignung der verschiedenen verfügbaren responsive Frameworks <br />
+                          für die iSYS Webanwendung zur Verwaltung der Besprechungsräume
+                        </li>
+              </ul>
+            </td>
+          <td>
+            <ul>
+              <li><strong>May 2017 - June 2018 Bachelorand</strong><br />
+                <ul>
+                  <li>Weiterentwicklung der internen Software zur Verwaltung der Besprechungsräume im Rahmen der Bachelorarbeit</li>
+                  <li>Bachelorarbeit: Untersuchung und Bewertung von zeitgemäßen Reponseness-Frameworks</li>
+                </ul>
+              </li>
+            </ul>
+            <ul>
+              <li><strong>Oct 2015 - Sep 2016 Praktikant Softwareentwicklung
+                Projekt: Entwicklung einer Software zur Verwaltung der Besprechungsräume</strong><br /><br />
+                <ul>
+                  <li><strong>Aufgaben:</strong>
+                    <ul>
+                      <li>Mitarbeit über alle Phase des Projektes hinweg</li>
+                      <li>Analyse vorhandener Kauf und Open Source Softwarelösungen</li>
+                      <li>Pflichtenhefterstellung</li>
+                      <li>Erarbeitung von Konzepten zur bedienerfreundlichen Darstellung der Anwendungsweboberfläche mittels Balsamiq Mockup</li>
+                      <li>Umsetzung der neuen Webanwendungssoftware u.a. mittels JSF mit PrimeFaces und Java Beans</li>
+                      <li>Mitarbeit bei der Qualitätssicherung der Webanwendung </li>
+                    </ul>
+                  </li><br /><br />
+                  <li><strong>Erfolge:</strong>
+                    <ul>
+                      <li>Die von mir durchgeführte Analyse zu den am Markt vorhanden Kauf und Open Source Softwarelösungen zur Besprechungsraumverwaltung 
+                        war die Grundlage der Make-or-Buy-Entscheidung des Managements. Die Analyse trug wesentlich dazu bei, daß diese Entscheidung schnell 
+                        und fundiert getroffen werden konnte.</li>
+                      <li>Die neue von mir mitentwickelte Software zur Verwaltung der Besprechungsräume ist im täglichen Einsatz und wird von den 
+                        Unternehmensmitarbeitern als sehr gute Unterstützung angenommen.</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>            
+          </td>
+        </tr>
+  </table>
+    </div>
   </div>
   </div>
   <script src="script.js"></script>
   <script src="https://js.cx/libs/animate.js"></script>
   <div>
-  <h3><strong>Skills</strong></h3><br /><br />
-  <div class="skillsZone" id="skills" >
+  <h3><strong>Skills</strong></h3><br />
+  <div class="skillsZone" id="skillszone" >
       
     <p>
       <img src="Sonne.png" alt="sun">
@@ -124,7 +184,7 @@
     </p>
   </div>
   </div>
-  <div class="contactZone" id="contact" >
+  <div class="contactZone" id="contactzone" >
     <div>
       <h3><strong>Contact</strong></h3><br /><br />
     Office Time:
