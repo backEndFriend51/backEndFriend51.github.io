@@ -10,7 +10,7 @@ if (age > 20) {
 const buttonElement = document.getElementById("clickhandler")
 buttonElement.addEventListener('click', function (e) {
     console.log(e)
-    alert("You clicked")
+    alert("Sonne.png")
 })
 
 function animateText(textArea) {
