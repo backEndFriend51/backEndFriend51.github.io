@@ -148,6 +148,11 @@ body, html {
     color: #444;
     font-size: 200%;
   }
+
+  table {
+    border: 1,5px
+  }
+
   
   img {
     margin: 10px, 10px, 10px, 10px;
