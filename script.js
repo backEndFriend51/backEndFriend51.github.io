@@ -36,3 +36,11 @@ function animateText(textArea) {
       }
     }
   }
+
+
+  setInterval(() => {
+    console.log(Date.now())
+    const elements - docu
+    for each elsement
+      element.claass.add('hidden')
+    }, 1000)
