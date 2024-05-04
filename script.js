@@ -38,9 +38,10 @@ function animateText(textArea) {
   }
 
 
-  setInterval(() => {
+ /* setInterval(() => {
     console.log(Date.now())
-    const elements - docu
-    for each elsement
-      element.claass.add('hidden')
-    }, 1000)
+    let i = 0;
+    const elements = imageholder;
+    for (let element in elements)
+      elements[element].add('hidden')
+    }, 1000) */
