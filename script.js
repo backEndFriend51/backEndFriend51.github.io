@@ -38,10 +38,26 @@ function animateText(textArea) {
   }
 
 
- /* setInterval(() => {
-    console.log(Date.now())
-    let i = 0;
-    const elements = imageholder;
-    for (let element in elements)
-      elements[element].add('hidden')
-    }, 1000) */
+  setInterval(myTimer, 1000);
+
+  function myTimer() {
+    const date = new Date();
+    document.getElementById("timer").innerHTML = date.toLocaleTimeString();
+  
+ //   const elements = imageholder;
+ //  for (let i = 0; i < 8; i++) {
+//     let elem = i.toString();
+    let element = document.getElementById("7");
+    let hidden = element.getAttribute("hidden");
+
+    if (hidden) {
+      element.removeAttribute("hidden");
+      img.innerText = "Hide image";
+   } else {
+      element.setAttribute("hidden", "hidden");
+      img.innerText = "Show image";
+   }
+//  } 
+}
+//    
+ //     elements[element].add('hidden')
