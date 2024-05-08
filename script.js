@@ -43,6 +43,7 @@ let index = 0;
 function myTimer() {
   const date = new Date();
   document.getElementById("timer").innerHTML = date.toLocaleTimeString();
+  
   const elements = [...document.querySelectorAll(".imageholder img")];
   index = (index + 1) % elements.length;
   console.log(index);
