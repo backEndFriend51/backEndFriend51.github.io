@@ -58,11 +58,11 @@ function myTimer() {
 
 
 const element1 = document.getElementById("card1Toggle");
-element.addEventListener("click", toggleFunction1);
+element1.addEventListener("click", toggleFunction1);
 const element2 = document.getElementById("card2Toggle");
-element.addEventListener("click", toggleFunction2);
+element2.addEventListener("click", toggleFunction2);
 const element3 = document.getElementById("card3Toggle");
-element.addEventListener("click", toggleFunction3);
+element3.addEventListener("click", toggleFunction3);
 
 function toggleFunction1() {
   element1.classList.toggle("hidden");
