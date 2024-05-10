@@ -65,11 +65,11 @@ const element3 = document.getElementById("card3Toggle");
 element.addEventListener("click", toggleFunction3);
 
 function toggleFunction1() {
-  element1.classList.toggle('hidden');
+  element1.classList.toggle("hidden");
 }
 function toggleFunction2() {
-  element2.classList.toggle('hidden');
+  element2.classList.toggle("hidden");
 }
 function toggleFunction3() {
-  element3.classList.toggle('hidden');
+  element3.classList.toggle("hidden");
 }
