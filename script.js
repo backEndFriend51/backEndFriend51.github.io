@@ -54,3 +54,22 @@ function myTimer() {
 
   elements[index].classList.remove("hidden");
 }
+
+
+
+const element1 = document.getElementById("card1Toggle");
+element.addEventListener("click", toggleFunction1);
+const element2 = document.getElementById("card2Toggle");
+element.addEventListener("click", toggleFunction2);
+const element3 = document.getElementById("card3Toggle");
+element.addEventListener("click", toggleFunction3);
+
+function toggleFunction1() {
+  element1.classList.toggle('hidden');
+}
+function toggleFunction2() {
+  element2.classList.toggle('hidden');
+}
+function toggleFunction3() {
+  element3.classList.toggle('hidden');
+}
