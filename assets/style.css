@@ -170,3 +170,8 @@ body, html {
   .hidden {
     display: none;
   }
+
+  .imageholder img {
+    height: 100%;
+    width: auto;
+  }
