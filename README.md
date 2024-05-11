@@ -3,11 +3,11 @@
 # backEndFriend51.github.io
 
 <p align="center">
- <img alt="R and S on green background" src="Logo.png">
+ <img alt="R and S on green background" src="assets/img/Logo.png">
 </p>
  
 <div class="pict_1" >	
-<img alt="R and S on green background" src="Turm_ggt.png">
+<img alt="R and S on green background" src="assets/img/Turm_ggt.png">
 </div>
 
 <div >
