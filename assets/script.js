@@ -76,3 +76,19 @@ function toggleFunction3() {
   const tZone3 = document.getElementById("card3");
   tZone3.classList.toggle("hidden");
 }
+
+const lElement = document.getElementById("move1");
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (window.scrollOffset > 800) {
+    lElement.classList.remove("hidden");
+  } else {
+    lElement.classList.add("hidden");
+  }
+}
+
+function linkUp() {  
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
