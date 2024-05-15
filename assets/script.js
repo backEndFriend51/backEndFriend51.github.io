@@ -1,12 +1,3 @@
-console.log("hello world")
-const name = "Rainer"
-console.log(name)
-const age = 19
-if (age > 20) {
-  console.log("welcome")
-} else {
-  console.log("Too young")
-}
 const buttonElement = document.getElementById("clickhandler")
 buttonElement.addEventListener('click', function (e) {
   console.log(e)
@@ -46,7 +37,6 @@ function myTimer() {
   
   const elements = [...document.querySelectorAll(".imageholder img")];
   index = (index + 1) % elements.length;
-  console.log(index);
   elements.forEach(ele => {
 
     ele.classList.add("hidden");
@@ -81,7 +71,7 @@ const lElement = document.getElementById("move1");
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (window.scrollOffset > 800) {
+  if (window.scrollY > 800) {
     lElement.classList.remove("hidden");
   } else {
     lElement.classList.add("hidden");
