@@ -73,6 +73,8 @@ function toggleFunction3() {
 }
 
 const lElement = document.getElementById("move1");
+// lElement.addEventListener("click", linkUp);      ???
+
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
