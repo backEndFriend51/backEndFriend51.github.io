@@ -172,8 +172,23 @@ body, html {
   }
 
   .imageholder img {
-    height: auto;
+    height: 100%;
     width: 100%;
+  }
+
+  #card1 {
+    max-height: 100%;
+    max-width: 470px;
+  }
+
+  #card2 {
+    max-height: 100%;
+    max-width: 470px;
+  }
+
+  #card3 {
+    max-height: 100%;
+    max-width: 470px;
   }
 
   #move1 {
