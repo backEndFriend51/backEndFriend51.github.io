@@ -1,15 +1,10 @@
-console.log("hello world")
 const name = "Rainer"
-console.log(name)
-const age = 19
-if (age > 20) {
-  console.log("welcome")
-} else {
-  console.log("Too young")
-}
+
+const age = 41
+
 const buttonElement = document.getElementById("clickhandler")
-buttonElement.addEventListener('click', function (e) {
-  console.log(e)
+buttonElement.addEventListener('click', function () {
+  
   alert("Soft Skills: 1. sense of duty, 2. punctual, 3. reliability")
 })
 
@@ -46,7 +41,7 @@ function myTimer() {
   
   const elements = [...document.querySelectorAll(".imageholder img")];
   index = (index + 1) % elements.length;
-  console.log(index);
+  
   elements.forEach(ele => {
 
     ele.classList.add("hidden");
@@ -64,10 +59,12 @@ acordeonTriggers.map(trigger => {
 })
 
 const lElement = document.getElementById("move1");
+// lElement.addEventListener("click", linkUp);      ???
+
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (window.scrollOffset > 800) {
+  if (window.scrollY > 800) {
     lElement.classList.remove("hidden");
   } else {
     lElement.classList.add("hidden");
