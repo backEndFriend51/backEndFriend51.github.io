@@ -73,7 +73,7 @@ function toggleFunction3() {
 }
 
 const lElement = document.getElementById("move1");
-// lElement.addEventListener("click", linkUp);      ???
+lElement.addEventListener("click", linkUp);
 
 window.onscroll = function() {scrollFunction()};
 
@@ -88,4 +88,8 @@ function scrollFunction() {
 function linkUp() {  
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
+
+  document.querySelector('html').scrollIntoView({
+    behavior: 'smooth'
+  });
 }
