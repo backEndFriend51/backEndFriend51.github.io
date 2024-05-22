@@ -50,27 +50,13 @@ function myTimer() {
   elements[index].classList.remove("hidden");
 }
 
-
-
-const element1 = document.getElementById("card1Toggle");
-element1.addEventListener("click", toggleFunction1);
-const element2 = document.getElementById("card2Toggle");
-element2.addEventListener("click", toggleFunction2);
-const element3 = document.getElementById("card3Toggle");
-element3.addEventListener("click", toggleFunction3);
-
-function toggleFunction1() {
-  const tZone1 = document.getElementById("card1");
-  tZone1.classList.toggle("hidden");
-}
-function toggleFunction2() {
-  const tZone2 = document.getElementById("card2");
-  tZone2.classList.toggle("hidden");
-}
-function toggleFunction3() {
-  const tZone3 = document.getElementById("card3");
-  tZone3.classList.toggle("hidden");
-}
+const acordeonTriggers = [...document.querySelectorAll(".accordion")]
+acordeonTriggers.map(trigger => {
+  trigger.addEventListener("click", (e) => {
+    const sibling = e.target.nextElementSibling;
+    sibling.classList.toggle("hidden");
+  })
+})
 
 const lElement = document.getElementById("move1");
 // lElement.addEventListener("click", linkUp);      ???
