@@ -58,24 +58,38 @@ acordeonTriggers.map(trigger => {
   })
 })
 
-const lElement = document.getElementById("move1");
-lElement.addEventListener("click", linkUp);
-
 window.onscroll = function() {scrollFunction()};
+const lElement = document.getElementById("move1");
 
-function scrollFunction() {
+function scrollFunction() {  
   if (window.scrollY > 800) {
-    lElement.classList.remove("hidden");
+    lElement.classList.remove("hidden"); 
   } else {
     lElement.classList.add("hidden");
   }
 }
 
+
+lElement.addEventListener("click", linkUp);
+
+
 function linkUp() {  
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
+}
+document.addEventListener("DOMContentLoaded", makeLinkSmooth);
 
-  document.querySelector('html').scrollIntoView({
-    behavior: 'smooth'
-  });
+function makeLinkSmooth() {
+const link = document.querySelectorAll("section a");
+link.addEventListener("click", smoothScroll);
+}
+
+function smoothScroll(e) {
+  e.preventDefault();
+  const targetId = this.getAttribute("href");
+  const targetElement = document.querySelector(targetId);
+
+  if (targetElement) { 
+    targetElement.scrollIntoView({ behavior: "smooth", });
+  }
 }

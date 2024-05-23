@@ -200,8 +200,8 @@ body, html {
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: #000;
-    color: white;
+    background-color: #f54e07;
+    color: rgba(255, 255, 255, 0.582);
     cursor: pointer;
     padding: 15px;
     border-radius: 4px;
