@@ -79,19 +79,16 @@ body, html {
     text-decoration: none;
     padding: 50px 15px;
   }
-  .haedlines {
-    width: 85px;
-  }
   .skillsZone {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-
+    
     color: #000;
     background-color: #fff;
-    
+    text-align: center;
     text-decoration: none;
-    padding: 40px 15px;
+    padding: 50px 15px;
   }
   .contactZone {
     display: flex;
