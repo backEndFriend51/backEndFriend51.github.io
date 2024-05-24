@@ -4,7 +4,6 @@ const age = 41
 
 const buttonElement = document.getElementById("clickhandler")
 buttonElement.addEventListener('click', function () {
-  
   alert("Soft Skills: 1. sense of duty, 2. punctual, 3. reliability")
 })
 
@@ -40,13 +39,10 @@ function myTimer() {
   document.getElementById("timer").innerHTML = date.toLocaleTimeString();
   
   const elements = [...document.querySelectorAll(".imageholder img")];
-  index = (index + 1) % elements.length;
-  
+  index = (index + 1) % elements.length; 
   elements.forEach(ele => {
-
     ele.classList.add("hidden");
   }) 
-
   elements[index].classList.remove("hidden");
 }
 
@@ -69,9 +65,7 @@ function scrollFunction() {
   }
 }
 
-
 lElement.addEventListener("click", linkUp);
-
 
 function linkUp() {  
   document.body.scrollTop = 0;

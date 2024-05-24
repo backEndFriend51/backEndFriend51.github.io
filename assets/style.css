@@ -82,11 +82,6 @@ body, html {
   .haedlines {
     width: 85px;
   }
-  .up {
-    color: #00f;
-    text-decoration: none;
-    padding: 0 15px;
-  }
   .skillsZone {
     display: flex;
     justify-content: space-around;
@@ -191,8 +186,7 @@ body, html {
     max-width: 470px;
   }
 
-  #move1 {
-    
+  #move1 {  
     position: fixed;
     bottom: 20px;
     right: 30px;
