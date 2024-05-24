@@ -77,19 +77,9 @@ function linkUp() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
-document.addEventListener("DOMContentLoaded", makeLinkSmooth);
 
-function makeLinkSmooth() {
-const link = document.querySelectorAll("section a");
-link.addEventListener("click", smoothScroll);
-}
-
-function smoothScroll(e) {
-  e.preventDefault();
-  const targetId = this.getAttribute("href");
-  const targetElement = document.querySelector(targetId);
-
-  if (targetElement) { 
-    targetElement.scrollIntoView({ behavior: "smooth", });
-  }
-}
+lElement.addEventListener('click', (e) => {
+  document.querySelector('#hi').scrollIntoView({
+    behavior: 'smooth'
+  });
+})
