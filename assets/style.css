@@ -1,13 +1,13 @@
 body, html {
-    margin: 0;
+    
     padding: 0;
     font-family: Arial, sans-serif;
     color: #1A1A1A;
-    background-color: #fff;
+    background-color: #00f;
   }
   header {
-    background-color: #fff;
-    color: #000;
+    background-color: #9207f5;
+    color: #fff;
     position: fixed;
     top: 0;
     width: 100%;
@@ -17,8 +17,8 @@ body, html {
   }
   button {
     text-align: center;
-    background-color: #1A1A1A;
-    color: #FEF9E7;
+    background-color: #9207f5;
+    color: #fff;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -52,14 +52,17 @@ body, html {
     border: 1px solid;
   }
   .navi {
-    color: #000; 
+    color: #fff; 
     text-decoration: none; 
-    padding: 0 15px;
+    
+    margin-right: 50px;
   }
   .cover {
+    margin: auto;
     padding: 60px 10px;
     text-align: center;
-    background-color: #FEF9E7;
+    max-width: 1500px;
+    background-color: #00ffcc;
     color: #000;
     margin-top: 40px;
   }
@@ -72,9 +75,10 @@ body, html {
     display: flex;
     justify-content: space-around;
     padding: 20px 0;
-
+    margin: auto;
     color: #000;
-    background-color: #FEF9E7;
+    background-color: #00ffcc;
+    max-width: 1500px;
     text-align: center;
     text-decoration: none;
     padding: 50px 15px;
@@ -83,9 +87,10 @@ body, html {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    
+    margin: auto;
     color: #000;
-    background-color: #fff;
+    background-color: #00ffcc;
+    max-width: 1500px;
     text-align: center;
     text-decoration: none;
     padding: 50px 15px;
@@ -94,9 +99,10 @@ body, html {
     display: flex;
     justify-content: space-around;
     padding: 20px 0;
-
+    margin: auto;
     color: #000;
-    background-color: #FEF9E7;
+    background-color: #00ffcc;
+    max-width: 1500px;
     text-align: center;
     text-decoration: none;
     padding: 30px 15px;
@@ -107,6 +113,7 @@ body, html {
     padding: 10px 0px;
   }
   .skill {
+    color: #fff;
     width: 30%;
     text-align: center;
   }
@@ -153,8 +160,8 @@ body, html {
   }
 
   footer {
-    background-color: #fff;
-    color: #000;
+    background-color: #9207f5;
+    color: #fff;
     text-align: center;
     padding: 10px 0;
   }
@@ -191,9 +198,13 @@ body, html {
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: #f54e07;
-    color: rgba(255, 255, 255, 0.582);
+    background-color: #9207f5;
+    color: #fff;
     cursor: pointer;
     padding: 15px;
     border-radius: 4px;
   }
+
+  #do {
+    color: #fff;
+  } 
