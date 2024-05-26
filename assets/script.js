@@ -54,26 +54,45 @@ acordeonTriggers.map(trigger => {
   })
 })
 
-window.onscroll = function() {scrollFunction()};
-const lElement = document.getElementById("move1");
+window.onscroll = function() {scrollUpFunction()};
+const upElement = document.getElementById("move1");
 
-function scrollFunction() {  
+function scrollUpFunction() {  
   if (window.scrollY > 800) {
-    lElement.classList.remove("hidden"); 
+    upElement.classList.remove("hidden"); 
   } else {
-    lElement.classList.add("hidden");
+    upElement.classList.add("hidden");
   }
 }
 
-lElement.addEventListener("click", linkUp);
+upElement.addEventListener("click", linkUp);
 
 function linkUp() {  
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
 
-lElement.addEventListener('click', (e) => {
+upElement.addEventListener('click', (e) => {
   document.querySelector('#hi').scrollIntoView({
     behavior: 'smooth'
   });
 })
+
+
+window.onscroll = function() {scrolldownFunction()};
+const downElement = document.getElementById("move2");
+
+function scrolldownFunction() {  
+  if (window.scrollY <= 800) {
+    downElement.classList.remove("hidden"); 
+  } else {
+    downElement.classList.add("hidden");
+  }
+}
+
+downElement.addEventListener("click", linkDown);
+
+function linkDown() {  
+  document.body.scrollY = 1000;
+  document.documentElement.scrollY = 1000;
+}
