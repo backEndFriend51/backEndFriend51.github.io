@@ -3,10 +3,10 @@ body, html {
     padding: 0;
     font-family: Arial, sans-serif;
     color: #1A1A1A;
-    background-color: #00ffcc;
+    background-color: #faf6fa;
   }
   header {
-    background-color: #fa02c0;
+    background-color: #a302fa;
     color: #fff;
     position: fixed;
     top: 0;
@@ -17,7 +17,7 @@ body, html {
   }
   button {
     text-align: center;
-    background-color: #fa02c0;
+    background-color: #a302fa;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -60,7 +60,7 @@ body, html {
     padding: 60px 10px;
     text-align: center;
     max-width: 1500px;
-    background-color: #91fee9;
+    background-color: #fff;
     color: #000;
     margin-top: 40px;
   }
@@ -75,7 +75,7 @@ body, html {
     padding: 20px 0;
     margin: auto;
     color: #000;
-    background-color: #91fee9;
+    background-color: #fff;
     max-width: 1500px;
     text-align: center;
     text-decoration: none;
@@ -87,7 +87,7 @@ body, html {
     flex-wrap: wrap;
     margin: auto;
     color: #000;
-    background-color: #91fee9;
+    background-color: #fff;
     max-width: 1500px;
     text-align: center;
     text-decoration: none;
@@ -99,7 +99,7 @@ body, html {
     padding: 20px 0;
     margin: auto;
     color: #000;
-    background-color: #91fee9;
+    background-color: #fff;
     max-width: 1500px;
     text-align: center;
     text-decoration: none;
@@ -112,8 +112,8 @@ body, html {
   }
   .skill {
     color: #fff;
-    width: 0%;
-    margin: auto;
+    justify-content: center;
+    
   }
   .contact-form {
     background-color: #D5DBDB;
@@ -158,7 +158,7 @@ body, html {
   }
 
   footer {
-    background-color: #fa02c0;
+    background-color: #a302fa;
     color: #fff;
     text-align: center;
     padding: 10px 0;
@@ -196,7 +196,7 @@ body, html {
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: #fa02c0;
+    background-color: #a302fa;
     color: #fff;
     cursor: pointer;
     padding: 15px;
