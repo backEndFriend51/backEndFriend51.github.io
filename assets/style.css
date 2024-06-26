@@ -53,6 +53,8 @@ body, html {
   }
   .navi {
     color: #fff;
+    margin-right: 5%;
+    margin-left: 5%;
     text-decoration: none;
   }
   .cover {
@@ -205,6 +207,5 @@ body, html {
 
   #move2 {
     color: #fff;
-    margin-left: 1000px;
-    margin-right: -500px;
+    margin-left: 5%;
   } 
