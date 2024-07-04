@@ -54,10 +54,11 @@ acordeonTriggers.map(trigger => {
   })
 })
 
-window.onscroll = function() {scrollUpFunction()};
+
+window.onscroll = function() {scrollupFunction()};
 const upElement = document.getElementById("move1");
 
-function scrollUpFunction() {  
+function scrollupFunction() {  
   if (window.scrollY > 800) {
     upElement.classList.remove("hidden"); 
   } else {
@@ -68,8 +69,8 @@ function scrollUpFunction() {
 upElement.addEventListener("click", linkUp);
 
 function linkUp() {  
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
+  document.body.scrollY = 0;
+  document.documentElement.scrollY = 0;
 }
 
 upElement.addEventListener('click', (e) => {
@@ -77,22 +78,3 @@ upElement.addEventListener('click', (e) => {
     behavior: 'smooth'
   });
 })
-
-
-window.onscroll = function() {scrolldownFunction()};
-const downElement = document.getElementById("move2");
-
-function scrolldownFunction() {  
-  if (window.scrollY <= 800) {
-    downElement.classList.remove("hidden"); 
-  } else {
-    downElement.classList.add("hidden");
-  }
-}
-
-downElement.addEventListener("click", linkDown);
-
-function linkDown() {  
-  document.body.scrollY = 1000;
-  document.documentElement.scrollY = 1000;
-}
