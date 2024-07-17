@@ -74,7 +74,7 @@ body, html {
   .homeZone {
     display: flex;
     justify-content: space-around;
-    padding: 20px 0;
+    flex-wrap: wrap;
     margin: auto;
     color: #000;
     background-color: #fff;
@@ -98,7 +98,7 @@ body, html {
   .contactZone {
     display: flex;
     justify-content: space-around;
-    padding: 20px 0;
+    flex-wrap: wrap;
     margin: auto;
     color: #000;
     background-color: #fff;
@@ -107,11 +107,11 @@ body, html {
     text-decoration: none;
     padding: 30px 15px;
   }
-  .skills {
+  /* .skills {
     display: flex;
     justify-content: center;
     padding: 0px 0px;
-  }
+  } */
   .skill {
     color: #fff;
     justify-content: center;
@@ -175,7 +175,7 @@ body, html {
     max-width: 470px;
   }
 
-  #card1 {
+  /* #card1 {
     max-height: 100%;
     max-width: 470px;
   }
@@ -188,7 +188,7 @@ body, html {
   #card3 {
     max-height: 100%;
     max-width: 470px;
-  }
+  } */
 
   #move1 {  
     position: fixed;
