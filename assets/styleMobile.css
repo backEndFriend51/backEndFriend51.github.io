@@ -72,9 +72,20 @@ body, html {
     object-fit: cover;
     
     border-radius: 50%;
-    max-width: 100%;
-    height: auto;
+    max-width: 100%; 
   }
+
+  .imageArea1 img {
+    width: 250px;
+    height: 200px;
+    object-fit: contain;
+  }
+  .imageArea2 img {
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+  }
+
   .homeZone {
     display: flex;
     justify-content: space-around;
@@ -95,7 +106,7 @@ body, html {
     color: #000;
     background-color: #fff;
     max-width: 1500px;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
     padding: 50px 15px;
   }
