@@ -261,3 +261,7 @@ footer {
   padding: 15px;
   border-radius: 4px;
 }
+
+#below { 
+  display: none;
+}
