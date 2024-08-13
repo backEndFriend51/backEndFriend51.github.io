@@ -86,7 +86,7 @@ body, html {
     width: 300px;
     height: 300px;
     object-fit: cover;
-    
+    margin-top: 70px;
     border-radius: 50%;
     max-width: 100%; 
   }
@@ -240,3 +240,42 @@ body, html {
   #para { 
     display: none;
   }
+
+.colorAreas { 
+		margin: auto;
+		width: 100%;
+		min-height: 1425px;
+		background-color: #faf4ff;
+	}
+.colorArea1 { 
+		position: relative;
+		text-align: center;
+		font-size: 20px;
+		color: rgb(0, 221, 255);
+		min-width: 330px;
+		height: 475px;
+		top: 3px;
+		left: 2px;
+		background-color: #a302fa;
+	}
+.colorArea2 { 
+		position: relative;
+		text-align: center;
+		font-size: 20px;
+		min-width: 330px;
+		height: 475px;
+		top: 6px;
+		left: 2px;
+		background-color: rgb(0, 221, 255);
+	}
+.colorArea3 { 
+		position: relative;
+		text-align: center;
+		font-size: 20px;
+		color: rgb(0, 221, 255);
+		min-width: 330px;
+		height: 475px;
+		top: 9px;
+		left: 2px;
+		background-color: #a302fa;
+	}
