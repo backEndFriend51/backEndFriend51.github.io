@@ -254,6 +254,15 @@ footer {
 	background-color: #faf4ff;
 	display: flex;
 }
+.colorArea1 {
+	margin: 30px;
+}
+.colorArea2 {
+	margin: 30px;
+}
+.colorArea3 {
+	margin: 30px;
+}
 .bg1 {
 	background-color: var(--theme-1);
 }
